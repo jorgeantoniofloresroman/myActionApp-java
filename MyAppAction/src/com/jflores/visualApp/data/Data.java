@@ -10,7 +10,7 @@ public class Data {
     //Referencia del unico objeto que vamos a crear
     private static Data instance;
     //Nombre Fichero de configuración donde estan los datos, esos datos luego se alamacenaran en item
-    private static String filename = "properties.conf";
+    private static String filename = "MyAppAction\\src\\com\\jflores\\visualApp\\conf\\properties.conf";
     //Lista de Item(shortDescription,details) para guardarlos en una lista.
     private static ArrayList<Item> listOfItem = new ArrayList();
 

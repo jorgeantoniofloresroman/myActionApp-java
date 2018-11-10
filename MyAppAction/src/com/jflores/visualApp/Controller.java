@@ -27,7 +27,7 @@ public class Controller {
         //Control de errores en el caso de que no encuentre el archivo de configuración properties.conf
         //Es simplemente un aviso en un Lbal, cambiar a otro lugar cuando se ejecute
         if (Data.isFlag()){
-            label.setText("Error a la hora de encontrar el archivo de conffiguración");
+            label.setText("Error a la hora de encontrar el archivo de configuración");
         }
 
         setIcons();
