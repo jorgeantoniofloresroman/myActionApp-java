@@ -2,11 +2,13 @@ package com.jflores.visualApp;
 
 import com.jflores.visualApp.data.Data;
 import com.jflores.visualApp.data.Item;
+import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+
 import java.util.ArrayList;
 
 public class Controller {
@@ -29,8 +31,9 @@ public class Controller {
         if (Data.isFlag()){
             label.setText("Error a la hora de encontrar el archivo de configuración");
         }
-
         setIcons();
+
+
 
         //Guardamos los datos e items
         items = Data.getInstance().getItems();
@@ -55,55 +58,81 @@ public class Controller {
 //No usamos threads para no mandar más datos a la vez.
 
 
+
     //Metodo para manejar el encendido del Led cuando se hace click sobre el boton.
     @FXML
     public void handleClickButton(){
 
+        label.setText("");
+
         //iamgenes para hacer el cambio y mostrar que hay un cambio y se esta enviando el mensaje.
         Image iconLedImageApagado = new Image("com/jflores/visualApp/img/ledApagado.png",240,240,false,false);
-        Image iconLedImageEncendido = new Image("com/jflores/visualApp/img/ledEncendido.png",240,240,false,false);
-        button.setGraphic(new ImageView(iconLedImageEncendido));
+        Image iconLedImageEnceniddo = new Image("com/jflores/visualApp/img/ledEncendido.png",240,240,false,false);
 
 
-        //Vaciar al hacer click el label para sacar datos de depuración.
-        label.setText("");
-        //Establecer en pantalla el datos que vamos a enviar para depurar.
-        label.setText(items.get(3).getShortDescription());
+//https://docs.oracle.com/javase/8/javafx/api/javafx/concurrent/Task.html
+        Task<Void> myTask = new Task<Void>() {
+            @Override
+            protected Void call() throws Exception {
+                try {
+                    Thread.sleep(2000);
+                } catch (Exception e) {}
+                return null;
+
+            }
+
+            @Override
+            protected void succeeded() {
+                button.setGraphic(new ImageView(iconLedImageApagado));
+                button.setDisable(false);
+            }
+
+            @Override
+            protected void running() {
+                button.setGraphic(new ImageView(iconLedImageEnceniddo));
+                button.setDisable(true);
+            }
+
+            };
 
         Client newClient = new Client();
 
-        Thread hilo = new Thread(new Runnable() {  //subcestible de ser comentado
-            @Override //subcestible de ser comentado
-            public void run() { //subcestible de ser comentado
+        Task<Void> myTask2 = new Task<Void>() {
+            boolean x=false;
+            @Override
+            protected Void call() throws Exception {
                 try { //subcestible de ser comentado
-
-                    newClient.openConnection(items.get(1).getDetails(),Integer.parseInt(items.get(2).getDetails()));
+                    newClient.openConnection(items.get(0).getDetails(),Integer.parseInt(items.get(1).getDetails()));
                     newClient.openStream();
-                    newClient.send(items.get(3).getDetails());
-                }finally{
-                } { //subcestible de ser comentado
+                    newClient.send(items.get(2).getDetails());
                     newClient.closeConnection();
-                } //subcestible de ser comentado
-            } //subcestible de ser comentado
-        }); //subcestible de ser comentado
-        hilo.start(); //subcestible de ser comentado
+                }catch (Exception e){
+                    x=true;
+                    System.out.println("errorrr"); //capturar el throws, mirar que es eso
+                }
+                return null;
 
-        //Hacer el juego de botones de imagenes con las conexiones.
-        try{
-            Thread.sleep(2000);
-        }catch (Exception e){
+            }
 
-        }
+            @Override
+            protected void succeeded() {
+               if(!x){
+                   label.setText("Orden " + items.get(2).getShortDescription() + " enviada.");
+               }else{
+                   label.setText("Error al conectar con el uC");
+               }
 
-      //  button.setGraphic(new ImageView(iconLedImageApagado));
+            }
+        };
 
-//        Socket socket;
-//        DataInputStream bufferDeEntrada = null;
-//        DataOutputStream bufferDeSalida = null;
+
+        new Thread(myTask).start();
+        new Thread(myTask2).start();
+
+
 
     }
 
-    //Metodos para establecer conexiones.
 
 
 

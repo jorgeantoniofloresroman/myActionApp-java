@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+
     //sobreescribimos el método start para cargar la interzaz
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -22,7 +23,9 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 900, 500));
         //Mostrar  el escenario (ventana)
         primaryStage.show();
+
     }
+
 
 //ejecutamos el metodo launch , buscar en doc FX.
     public static void main(String[] args) {

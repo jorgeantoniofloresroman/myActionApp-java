@@ -14,18 +14,17 @@ public class Client {
 
 
 
-    public void openConnection(String ip, int puerto) {
+    public void openConnection(String ip, int puerto)  throws Exception{
         try {
             socket = new Socket(ip, puerto);
             System.out.println("Conectado a :" + socket.getInetAddress().getHostName());
         } catch (Exception e) {
             System.out.println("Excepción al levantar conexión: " + e.getMessage());
-            //System.exit(0);
         }
     }
 
 
-    public void openStream() {
+    public void openStream() throws Exception{
         try {
             bufferOut = new DataOutputStream(socket.getOutputStream());
             bufferOut.flush();
@@ -34,19 +33,21 @@ public class Client {
         }
     }
 
-    public void send(String s) {
+    public void send(String s) throws Exception{
         try {
             bufferOut.writeUTF(s);
             bufferOut.flush();
         } catch (IOException e) {
-            System.out.println("IOException on enviar");
+            System.out.println("IOException a enviar");
         }
     }
 
-    public void closeConnection() {
+    public void closeConnection() throws Exception{
         try {
             bufferOut.close();
             socket.close();
+            //Lo ponemos a null para que vuelva a crearlo de nuevo cuando se vuelva a llamar y controlar bien las excepciones
+            socket=null;
             System.out.println("Conexión terminada");
         } catch (IOException e) {
             System.out.println("IOException on cerrarConexion()");
