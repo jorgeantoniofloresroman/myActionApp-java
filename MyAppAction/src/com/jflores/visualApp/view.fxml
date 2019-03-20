@@ -10,17 +10,21 @@ Archivo FXML con esa notación para la interfaz gráfica, separando la parte gr�
 -->
 <!--Usamos Grid Pane como layout de la app, modelo de rejilla-->
 
-<GridPane alignment="center" hgap="10" prefHeight="218.0" prefWidth="306.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" fx:controller="com.jflores.visualApp.Controller">
+<GridPane alignment="TOP_LEFT" hgap="10" prefHeight="218.0" prefWidth="306.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" fx:controller="com.jflores.visualApp.Controller">
     <padding><Insets bottom="10" left="25" right="25" top="25" /></padding>
     <!--Añadimos un boton con un id para relacionarlo con el controller, al igual que el evento que le damos
     al boton (onMouse) para relazionar ese evento al metodo del controller hanldeClick-->
-    <Button fx:id="button" onMouseClicked="#handleClickButton" prefHeight="31.0" prefWidth="15.0" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+    <Button fx:id="buttonOnTv" onMouseClicked="#handleClickButtonOn"  GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+    <Button fx:id="buttonUpChannel" onMouseClicked="#handleClickButtonUpChannel"  GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+    <Button fx:id="buttonDownChannel" onMouseClicked="#handleClickButtonDownChannel"  GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+    <Button fx:id="buttonUpVolume" onMouseClicked="#handleClickButtonUpVolume"  GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+    <Button fx:id="buttonDownVolume" onMouseClicked="#handleClickButtonDownVolume"  GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+    <Button fx:id="buttonGenericPort" onMouseClicked="#handleClickButtonGenericPort"  GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="2" />
     <!--Usamos d emomento labels para depurar-->
-    <Label text="Datos Salida: " GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="10">
 
+    <Label text="Datos Salida: " GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
     </Label>
-
-    <Label fx:id="label" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="11">
+    <Label fx:id="label" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4">
     </Label>
 
 </GridPane>

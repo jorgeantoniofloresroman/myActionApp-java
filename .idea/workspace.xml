@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyAppAction:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d8890939-23fe-4d6f-b820-50c24dcfea17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyAppAction_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyAppAction/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAppAction/MyAppAction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/MyAppAction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/properties.conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/ledApagado.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/ledApagado.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/ledEncendido.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/ledEncendido.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/mas_volumen_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/mas_volumen_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/menos volumen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/menos volumen_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Controller$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/conf/properties.conf" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/conf/properties.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/data/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/data/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/data/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/data/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/img/ledApagado.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/img/ledApagado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/img/ledApagado2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/img/ledEncendido.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/img/ledEncendido.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/img/ledEncendido2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAppAction/com/jflores/visualApp/view.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +48,21 @@
         <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3672">
+              <caret line="226" column="25" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,14 +70,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Controller.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/view.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1131">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -59,8 +83,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2165#2166#0" expanded="true" />
+                <element signature="e#2215#2216#0" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
+                <element signature="e#2380#2381#0" expanded="true" />
+                <element signature="e#2515#2516#0" expanded="true" />
+                <element signature="e#2542#2543#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,10 +110,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="48" column="125" selection-start-line="48" selection-start-column="125" selection-end-line="48" selection-end-column="125" />
+            <state relative-caret-position="170">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,18 +161,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Concurrent.java" />
-        <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf" />
         <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Client.java" />
+        <option value="$PROJECT_DIR$/MyAppAction/properties.conf" />
         <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Main.java" />
+        <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/view.fxml" />
         <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Controller.java" />
+        <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf" />
+        <option value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Data.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +226,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,15 +246,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="365" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="366" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="365" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="myactionapp-java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543694366359" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaPrograms/ServerDePrueba" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552939506727" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/diagram" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunDashboard">
@@ -241,22 +317,31 @@
       <workItem from="1542841495754" duration="1117000" />
       <workItem from="1543677465512" duration="12958000" />
       <workItem from="1543743864323" duration="462000" />
+      <workItem from="1546773401139" duration="339000" />
+      <workItem from="1546777525822" duration="637000" />
+      <workItem from="1546789044161" duration="230000" />
+      <workItem from="1549703260992" duration="487000" />
+      <workItem from="1549704162128" duration="4655000" />
+      <workItem from="1552327937343" duration="6285000" />
+      <workItem from="1552730687559" duration="3897000" />
+      <workItem from="1552933564526" duration="4828000" />
+      <workItem from="1553109006893" duration="336000" />
+      <workItem from="1553109589685" duration="2663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25326000" />
+    <option name="totallyTimeSpent" value="49683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" x="194" y="54" width="240" height="731" id="Project" order="5" visible="true" weight="0.16442953" />
+      <window_info content_ui="combo" x="194" y="54" width="240" height="731" id="Project" order="5" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -269,7 +354,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.2776204" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.4164306" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
@@ -280,7 +365,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,39 +373,145 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Concurrent.java" />
+    <entry file="file://$PROJECT_DIR$/MyAppAction/MyAppAction.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/menos volumen_off.png" />
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/mas_volumen_off.png" />
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/ledApagado.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/inicio.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/generic-on.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/generic-off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/down-channel_on.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/down-channel_off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/up-channel_off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/down-volume-off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/properties.conf" />
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/img/up_volume_off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/diagram/classDiagram.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com.jflores.visualApp.Controller</node>
+            <node x="" y="">com.jflores.visualApp.Main</node>
+            <node x="" y="">com.jflores.visualApp.data.Data</node>
+            <node x="" y="">com.jflores.visualApp.Client</node>
+            <node x="" y="">com.jflores.visualApp.data.Item</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.46538187009279086" x="-16.0" y="681.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="125" selection-start-line="48" selection-start-column="125" selection-end-line="48" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="3672">
+          <caret line="226" column="25" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/view.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/conf/properties.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAppAction/src/com/jflores/visualApp/data/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2515#2516#0" expanded="true" />
+            <element signature="e#2542#2543#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -331,10 +522,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>MyAppAction:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -412,5 +605,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

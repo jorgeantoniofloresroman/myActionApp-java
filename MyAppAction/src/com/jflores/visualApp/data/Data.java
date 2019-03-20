@@ -10,7 +10,7 @@ public class Data {
     //Referencia del unico objeto que vamos a crear
     private static Data instance;
     //Nombre Fichero de configuración donde estan los datos, esos datos luego se alamacenaran en item
-    private static String filename = "MyAppAction\\src\\com\\jflores\\visualApp\\conf\\properties.conf";
+    private static final String FILENAME = "conf\\properties.conf";
     //Lista de Item(shortDescription,details) para guardarlos en una lista.
     private static ArrayList<Item> listOfItem = new ArrayList();
 
@@ -21,11 +21,11 @@ public class Data {
             // se crea la instancia si no existe y ademas se va a buscar sólo una vez  los datos al fchero
             instance = new Data();
             try {
-                BufferedReader br = new BufferedReader(new FileReader(filename));
+                BufferedReader br = new BufferedReader(new FileReader(FILENAME));
                 String input= br.readLine();
                 while (input != null) {
                     //si podemos, deberiamos cambiar por otro caracter
-                    String[] itemPieces = input.split("\t");
+                    String[] itemPieces = input.split("=");
                     //capturamos cada dato en un array
                     String shortDescription = itemPieces[0];
                     String details = itemPieces[1];
